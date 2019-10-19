@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <conio.h>
-
-Clrscr();
 void main()
 {
-    int year = 1998;
-
-   
-    
+    clrscr();
+    int year;
+    printf("Enter a year\n");
+    scanf("%d",&year);
 
     if(year%4 == 0)
     {
